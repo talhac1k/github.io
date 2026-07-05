@@ -259,15 +259,6 @@ footer {
   .page.visible { animation: none; }
   html { scroll-behavior: auto; }
 }
-
-/* ============ PRINT (Download CV) ============ */
-@media print {
-  #bg-canvas, header, footer, .page { display: none !important; }
-  #page-cv { display: block !important; animation: none; padding: 0; }
-  #page-cv .btn { display: none; }
-  body { background: #fff; }
-  .tl-body { page-break-inside: avoid; }
-}
 </style>
 </head>
 <body>
@@ -298,7 +289,7 @@ footer {
     <p class="sub">CS &amp; Economics student and AI enthusiast — exploring machine learning from models to the markets they move.</p>
     <div class="hero-actions">
       <a class="btn btn-dark" href="#projects">View projects →</a>
-      <button class="btn btn-ghost" onclick="window.print()">Download CV</button>
+      <a class="btn btn-ghost" href="cv.pdf" download="Talha_Celik_CV.pdf">Download CV</a>
       <span class="open-pill"><span class="pulse"></span>open to work &amp; collaborations</span>
     </div>
   </section>
@@ -306,7 +297,7 @@ footer {
   <section class="about-block">
     <h2>About</h2>
     <p>I'm Talha. I'm 23 year old Computer Science &amp; Economics graduate interested in applying AI and automation to improve workflows and support data-driven decision making.</p>
-    <p>I'm experienced with Python, AI-agent research, and building practical solutions to real-world problems — and I enjoy translating technical ideas into simple tools that help teams work more efficiently.</p>
+    <p>I'm experienced with Python, AI-Agent, Agentic RAG designs and building practical solutions to real-world problems — and I enjoy translating technical ideas into simple tools that help teams work more efficiently.</p>
     <div class="facts">
       <span class="k">based_in</span><span class="v">Eindhoven, Netherlands</span>
       <span class="k">studying</span><span class="v">MSc Data Science</span>
@@ -321,7 +312,7 @@ footer {
   <div class="cv">
     <div class="cv-head">
       <h1>Curriculum Vitae</h1>
-      <button class="btn btn-dark btn-sm" onclick="window.print()">Download PDF ↓</button>
+      <a class="btn btn-dark btn-sm" href="cv.pdf" download="Talha_Celik_CV.pdf">Download PDF ↓</a>
     </div>
 
     <div class="cv-section">
@@ -408,7 +399,7 @@ footer {
 <div class="page" id="page-contact">
   <div class="contact-hero">
     <div class="eyebrow">CONTACT</div>
-    <h1>Let's build something that <em>thinks</em>.</h1>
+    <h1>Let's build something <em>together</em>.</h1>
     <p class="sub">I'm open to work, research, and collaborations in AI and software. If you're building something interesting, my inbox is open.</p>
     <a class="email-link" href="mailto:celikt2002@gmail.com">celikt2002@gmail.com</a>
     <div class="socials">
